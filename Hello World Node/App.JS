@@ -16,5 +16,5 @@ const server = http.createServer((req, res) => {
 
 //Para conseguir visualizar no navegador, usa-se o método listen
 server.listen(port, hostname, () => {
-    console.log('Server runnig at http://' + hostname + ':' + port); //console log não trouxe as portas, mas o server foi criado
+    console.log(`Server runnig at http://${hostname}:${port}`); //console log não trouxe as portas, mas o server foi criado
 });
